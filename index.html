@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             font-family: 'Inter', sans-serif;
         }
+
         .active {
-            color: #f5f5f5; /* Highlight color for active nav link */
+            color: #f5f5f5;
+            /* Highlight color for active nav link */
             font-weight: 600;
             border-bottom: 2px solid #f5f5f5;
         }
     </style>
 </head>
+
 <body class="bg-gray-100">
     <header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white fixed w-full top-0 z-50 shadow-md">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
@@ -49,12 +55,22 @@
             </div>
             <nav class="block">
                 <ul class="space-y-4">
-                    <li><a href="#about" class="block text-lg text-white hover:text-blue-200 transition duration-300">About</a></li>
-                    <li><a href="#experience" class="block text-lg text-white hover:text-blue-200 transition duration-300">Experience</a></li>
-                    <li><a href="#projects" class="block text-lg text-white hover:text-blue-200 transition duration-300">Projects</a></li>
-                    <li><a href="#education" class="block text-lg text-white hover:text-blue-200 transition duration-300">Education</a></li>
-                    <li><a href="#skills" class="block text-lg text-white hover:text-blue-200 transition duration-300">Skills</a></li>
-                    <li><a href="#contact" class="block text-lg text-white hover:text-blue-200 transition duration-300">Contact</a></li>
+                    <li><a href="#about"
+                            class="block text-lg text-white hover:text-blue-200 transition duration-300">About</a></li>
+                    <li><a href="#experience"
+                            class="block text-lg text-white hover:text-blue-200 transition duration-300">Experience</a>
+                    </li>
+                    <li><a href="#projects"
+                            class="block text-lg text-white hover:text-blue-200 transition duration-300">Projects</a>
+                    </li>
+                    <li><a href="#education"
+                            class="block text-lg text-white hover:text-blue-200 transition duration-300">Education</a>
+                    </li>
+                    <li><a href="#skills"
+                            class="block text-lg text-white hover:text-blue-200 transition duration-300">Skills</a></li>
+                    <li><a href="#contact"
+                            class="block text-lg text-white hover:text-blue-200 transition duration-300">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -65,7 +81,7 @@
             <div class="container mx-auto px-4 py-10">
                 <h2 class="text-3xl font-semibold text-blue-700 text-center mb-8">About Me</h2>
                 <p class="text-gray-700 text-lg text-center">
-                    Vehement | Inquisitive | Avant-Garde <br> I'm a Software Developer with a passion for technology and building innovative solutions.
+                    Vehement | Inquisitive | Avant-Garde <br/>I'm a Software Developer with a passion for technology and building innovative solutions.
                 </p>
             </div>
         </section>
@@ -79,39 +95,68 @@
                         <h4 class="text-gray-600 mb-1">Kytheon</h4>
                         <p class="text-gray-500 text-sm mb-3">August 2019 - Present</p>
                         <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li>Developed Mood detection, Hand Raise detection, and Fake Product detection systems in Python, achieving 90%+ accuracy, and created REST APIs for the same using FastAPI and Flask.</li>
-                            <li>Implemented real-time Hand Raise and Mood detection in the browser using ReactJS and the user's webcam, reducing response time by 50%.</li>
-                            <li>Designed and developed a reusable Video/Image upload modal in ReactJS, decreasing development time for similar features by 20%.</li>
-                            <li>Contributed to the development of the CMS and frontend for an edutech product using JavaScript and ReactJS, serving 10,000+ users.</li>
-                            <li>Implemented Computer Adaptive Testing algorithms in Python using catsim, improving test efficiency by 15%.</li>
-                            <li>Developed an automated script in JavaScript for fund transfer using web3 deployed on AWS Lambda, processing 1000+ transactions daily.</li>
-                            <li>Designed and implemented tax data generation and calculation processes for a DeFi project in Python, reducing manual calculation errors by 95%.</li>
-                            <li>Developed a centralized bridge aggregator in TypeScript using web3, providing users with optimal token transfer options across multiple chains and increasing user engagement by 25%.</li>
-                            <li>Led the design, development, and maintenance of backend services and infrastructure for core blockchain-based products, ensuring 99.9% uptime.</li>
-                            <li>Developed a Flask-based application for user photo uploads and digital scrollable photo frame generation, handling 1000+ images per day.</li>
-                            <li>Designed and implemented a Natural Language-based Semantic Search engine in Python and MySQL, improving search query accuracy by 30%.</li>
-                            <li>Developed an automated duplicate photo detection algorithm using deep learning in Python, achieving 95% accuracy.</li>
-                            <li>Developed a scalable web framework using web sockets in Java, handling 10,000+ concurrent GET and POST requests.</li>
-                            <li>Designed and implemented an in-memory SQL database based on a hashmap data structure in Java, achieving O(1) query time complexity.</li>
-                            <li>Developed an e-commerce website using JSP and Servlets which included a Razorpay payment gateway integration, resulting in 200+ daily transactions.</li>
-                            <li>Developed a ticketing website for booking tickets for a cultural event using JSP and Servlets which included a Razorpay payment gateway for buying tickets.</li>
-                            <li>Developed a general-purpose recommendation engine using counters and matrices in Java.</li>
-                            <li>Collaborated with the quality assurance team to verify correct implementation of software development changes.</li>
-                            <li>Designed web-based assets for deployment on Amazon Web Services (AWS) cloud computing platforms.</li>
+                            <li>Developed Mood detection, Hand Raise detection, and Fake Product detection systems in
+                                Python, achieving 90%+ accuracy, and created REST APIs for the same using FastAPI and
+                                Flask.</li>
+                            <li>Implemented real-time Hand Raise and Mood detection in the browser using ReactJS and the
+                                user's webcam, reducing response time by 50%.</li>
+                            <li>Designed and developed a reusable Video/Image upload modal in ReactJS, decreasing
+                                development time for similar features by 20%.</li>
+                            <li>Contributed to the development of the CMS and frontend for an edutech product using
+                                JavaScript and ReactJS, serving 10,000+ users.</li>
+                            <li>Implemented Computer Adaptive Testing algorithms in Python using catsim, improving test
+                                efficiency by 15%.</li>
+                            <li>Developed an automated script in JavaScript for fund transfer using web3 deployed on AWS
+                                Lambda, processing 1000+ transactions daily.</li>
+                            <li>Designed and implemented tax data generation and calculation processes for a DeFi
+                                project in Python, reducing manual calculation errors by 95%.</li>
+                            <li>Developed a centralized bridge aggregator in TypeScript using web3, providing users with
+                                optimal token transfer options across multiple chains and increasing user engagement by
+                                25%.</li>
+                            <li>Led the design, development, and maintenance of backend services and infrastructure for
+                                core blockchain-based products, ensuring 99.9% uptime.</li>
+                            <li>Developed a Flask-based application for user photo uploads and digital scrollable photo
+                                frame generation, handling 1000+ images per day.</li>
+                            <li>Designed and implemented a Natural Language-based Semantic Search engine in Python and
+                                MySQL, improving search query accuracy by 30%.</li>
+                            <li>Developed an automated duplicate photo detection algorithm using deep learning in
+                                Python, achieving 95% accuracy.</li>
+                            <li>Developed a scalable web framework using web sockets in Java, handling 10,000+
+                                concurrent GET and POST requests.</li>
+                            <li>Designed and implemented an in-memory SQL database based on a hashmap data structure in
+                                Java, achieving O(1) query time complexity.</li>
+                            <li>Developed an e-commerce website using JSP and Servlets which included a Razorpay payment
+                                gateway integration, resulting in 200+ daily transactions.</li>
+                            <li>Developed a ticketing website for booking tickets for a cultural event using JSP and
+                                Servlets which included a Razorpay payment gateway for buying tickets.</li>
+                            <li>Developed a general-purpose recommendation engine using counters and matrices in Java.
+                            </li>
+                            <li>Collaborated with the quality assurance team to verify correct implementation of
+                                software development changes.</li>
+                            <li>Designed web-based assets for deployment on Amazon Web Services (AWS) cloud computing
+                                platforms.</li>
                             <li>Leveraged mathematical techniques to develop engineering and scientific solutions.</li>
                         </ul>
                     </div>
 
                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Hybrid Cloud Intern / IBM India Software Labs</h3>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Hybrid Cloud Intern / IBM India Software
+                            Labs</h3>
                         <h4 class="text-gray-600 mb-1">IBM</h4>
                         <p class="text-gray-500 text-sm mb-3">January 2019 - July 2019</p>
                         <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li>Developed an Angular web application to provide a single view of transaction lifecycles over the Sterling Integration Cluster, improving monitoring efficiency by 40%.</li>
-                            <li>Implemented features such as a completely editable data table, dynamic lists, and color-coded trees in Angular to enhance the user experience for B2B transaction monitoring.</li>
-                            <li>Developed a J2EE web application-based parser in Java to automate invoice processing, saving 8-15 hours of manual work per invoice.</li>
-                            <li>Worked on Face detection through the users webcam using OpenCV and deep learning in Python.</li>
-                            <li>Developed an automated system which stores the user inputed pattern or gesture through the webcam and matches it in real time with the feed from the webcam or any other camera using deep learning in Python.</li>
+                            <li>Developed an Angular web application to provide a single view of transaction lifecycles
+                                over the Sterling Integration Cluster, improving monitoring efficiency by 40%.</li>
+                            <li>Implemented features such as a completely editable data table, dynamic lists, and
+                                color-coded trees in Angular to enhance the user experience for B2B transaction
+                                monitoring.</li>
+                            <li>Developed a J2EE web application-based parser in Java to automate invoice processing,
+                                saving 8-15 hours of manual work per invoice.</li>
+                            <li>Worked on Face detection through the users webcam using OpenCV and deep learning in
+                                Python.</li>
+                            <li>Developed an automated system which stores the user inputed pattern or gesture through
+                                the webcam and matches it in real time with the feed from the webcam or any other camera
+                                using deep learning in Python.</li>
                             <li>Developed a code generation utility using decision trees in Python.</li>
                             <li>Developed reporting tools for internal usage using JAVA Swing and CouchDB.</li>
                         </ul>
@@ -122,9 +167,13 @@
                         <h4 class="text-gray-600 mb-1">RailYatri</h4>
                         <p class="text-gray-500 text-sm mb-3">June 2018 - July 2018</p>
                         <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li>Developed an R Shiny Dashboard for the PR Team to visualize train delays based on various metrics, improving reporting efficiency by 30%.</li>
-                            <li>Improved search techniques by implementing distance and phonetic algorithms like Jaro-Winkler distance to match incorrectly typed search queries with the closest matching train name / station name.</li>
-                            <li>Analyzed user search and contribution parameters to provide insights for user retention strategies, contributing to a 5% increase in user retention.</li>
+                            <li>Developed an R Shiny Dashboard for the PR Team to visualize train delays based on
+                                various metrics, improving reporting efficiency by 30%.</li>
+                            <li>Improved search techniques by implementing distance and phonetic algorithms like
+                                Jaro-Winkler distance to match incorrectly typed search queries with the closest
+                                matching train name / station name.</li>
+                            <li>Analyzed user search and contribution parameters to provide insights for user retention
+                                strategies, contributing to a 5% increase in user retention.</li>
                         </ul>
                     </div>
                 </div>
@@ -152,52 +201,65 @@
                         <p class="text-gray-700">Full Fledged Web Browser application</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Weather Forecasting System using Artificial Neural Networks</h3>
-                        <p class="text-gray-700">A Weather Forecasting system built by applying regression through a Fully Connected Neural Network which has been implemented
-                            through the Keras library in Python. Delhi Weather data of past 10 years was used for training and testing.</p>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Weather Forecasting System using Artificial
+                            Neural Networks</h3>
+                        <p class="text-gray-700">A Weather Forecasting system built by applying regression through a
+                            Fully Connected Neural Network which has been implemented
+                            through the Keras library in Python. Delhi Weather data of past 10 years was used for
+                            training and testing.</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Twitter Sentiment Analysis</h3>
-                        <p class="text-gray-700">A Twitter Sentiment Analysis Web Application project which provides the user an estimate of positive and negative tweets for a user
-                        given twitter handle. The backend of the project has been implemented in Python through the usage of Tweepy, Textblob and Flask
-                        Framework. The front end has been designed in Angular JS.</p>
+                        <p class="text-gray-700">A Twitter Sentiment Analysis Web Application project which provides the
+                            user an estimate of positive and negative tweets for a user
+                            given twitter handle. The backend of the project has been implemented in Python through the
+                            usage of Tweepy, Textblob and Flask
+                            Framework. The front end has been designed in Angular JS.</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Chatbot Plugin</h3>
-                        <p class="text-gray-700">A chatbot plugin made for the NIIT University Website to help answer the queries put forward by prospective applicants to the
-                        University.</p>
+                        <p class="text-gray-700">A chatbot plugin made for the NIIT University Website to help answer
+                            the queries put forward by prospective applicants to the
+                            University.</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Vocalify</h3>
-                        <p class="text-gray-700">An Android Application made for Gre Examination preparation based on the Barron's high frequency word list.
-                        The application made use
-                        of the Android Text to Speech library to faciliate learning.</p>
+                        <p class="text-gray-700">An Android Application made for Gre Examination preparation based on
+                            the Barron's high frequency word list.
+                            The application made use
+                            of the Android Text to Speech library to faciliate learning.</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Mieten</h3>
                         <p class="text-gray-700">An Android Application made for the NIIT University Placement Cell.
-                        The app provided a centralised portal for communication between
-                        the students and the Placement Cell.</p>
+                            The app provided a centralised portal for communication between
+                            the students and the Placement Cell.</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Ultrasonic Map Maker Bot</h3>
-                        <p class="text-gray-700">An Arduino Powered bot which uses an Ultrasonic Sensor to scan the environment and plot its 2-D graph in MATLAB on the connected
-                        computer.
-                        The project aimed to study the possibility of robotic vision using Ultrasonic waves.</p>
+                        <p class="text-gray-700">An Arduino Powered bot which uses an Ultrasonic Sensor to scan the
+                            environment and plot its 2-D graph in MATLAB on the connected
+                            computer.
+                            The project aimed to study the possibility of robotic vision using Ultrasonic waves.</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Wireless Power Transmission using Tesla Coil</h3>
-                        <p class="text-gray-700">The Project aimed to portray the use of Tesla coils in transmitting power between the Primary and Secondary Tesla coil.
-                        A LED
-                        connected to the secondary coil acted as the load with the power coming from the primary Tesla coil.</p>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Wireless Power Transmission using Tesla
+                            Coil</h3>
+                        <p class="text-gray-700">The Project aimed to portray the use of Tesla coils in transmitting
+                            power between the Primary and Secondary Tesla coil.
+                            A LED
+                            connected to the secondary coil acted as the load with the power coming from the primary
+                            Tesla coil.</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Bus Ticketing System</h3>
-                        <p class="text-gray-700">A centralized bus ticketing system built in Java NetBeans with data being hosted on MySQL Server.</p>
+                        <p class="text-gray-700">A centralized bus ticketing system built in Java NetBeans with data
+                            being hosted on MySQL Server.</p>
                     </div>
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Kidandpc</h3>
-                        <p class="text-gray-700">https://kidandpc.wordpress.com/: A tech blog built using the wordpress platform.</p>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Kidandpc</h3>
+                        <p class="text-gray-700">https://kidandpc.wordpress.com/: A tech blog built using the wordpress
+                            platform.</p>
                     </div>
                 </div>
             </div>
@@ -209,21 +271,26 @@
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Facial Recognition using Deep Learning</h3>
-                        <p class="text-gray-700">A research project to compare the performance of various multi class classifiers applied over Google's FaceNet based on a Convolutional
-                        Neural Network Architecture. Our end goal was to provide a system that makes it possible for a teacher to mark the attendance of a
-                        class by simply clicking a picture of the class.</p>
+                        <p class="text-gray-700">A research project to compare the performance of various multi class
+                            classifiers applied over Google's FaceNet based on a Convolutional
+                            Neural Network Architecture. Our end goal was to provide a system that makes it possible for
+                            a teacher to mark the attendance of a
+                            class by simply clicking a picture of the class.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">A Tale of 3 Monkeys and 3 Humans</h3>
                         <p class="text-gray-700">Theory of Computation design for river crossing puzzle</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Fake Product Detection for E Commerce Websites</h3>
-                        <p class="text-gray-700">Machine Learning Pipeline for fake product detection for E-Commerce Websites</p>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Fake Product Detection for E Commerce
+                            Websites</h3>
+                        <p class="text-gray-700">Machine Learning Pipeline for fake product detection for E-Commerce
+                            Websites</p>
                     </div>
-                     <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
                         <h3 class="text-xl font-semibold text-blue-600 mb-2">Key Value Database</h3>
-                        <p class="text-gray-700">Key Value Database with two variations showcasing - ArrayLists and HashMaps</p>
+                        <p class="text-gray-700">Key Value Database with two variations showcasing - ArrayLists and
+                            HashMaps</p>
                     </div>
                 </div>
             </div>
@@ -231,4 +298,170 @@
 
         <section id="education" class="section bg-gradient-to-br from-white to-gray-100 shadow-lg">
             <div class="container mx-auto px-4 py-10">
-      
+                <h2 class="text-3xl font-semibold text-blue-700 mb-8 text-center">Education</h2>
+                <div class="space-y-6">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2">NIIT University, Neemrana</h3>
+                        <p class="text-gray-700 mb-1">Bachelor of Technology - Computer Science - Specialization in AI
+                        </p>
+                        <p class="text-gray-700 mb-1">CGPA: 8.83 (3.83/4.0)</p>
+                        <p class="text-gray-500 text-sm">July 2019</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2">City International School, Wanowrie, Pune
+                        </h3>
+                        <p class="text-gray-700 mb-1">CBSE 12th Standard</p>
+                        <p class="text-gray-700 mb-1">Percentage: 90.6%</p>
+                        <p class="text-gray-500 text-sm">May 2015</p>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+                        <h3 class="text-xl font-semibold text-blue-600 mb-2">Golden Jubilee School, Jalna</h3>
+                        <p class="text-gray-700 mb-1">CBSE 10th Standard</p>
+                        <p class="text-gray-700 mb-1">CGPA: 10.0</p>
+                        <p class="text-gray-500 text-sm">May 2013</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-gradient-to-br from-gray-100 to-white shadow-lg">
+            <div class="container mx-auto px-4 py-10">
+                <h2 class="text-3xl font-semibold text-blue-700 mb-8 text-center">Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Programming Languages</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>C++</li>
+                            <li>R</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Databases</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Frameworks & Libraries</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>jQuery</li>
+                            <li>Flask</li>
+                            <li>Express.js</li>
+                            <li>Spring Boot/Spring MVC/J2EE</li>
+                            <li>Node.js</li>
+                            <li>GraphQL</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Cloud & DevOps</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>AWS</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Machine Learning & AI</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Computer Vision</li>
+                            <li>Machine Learning</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-blue-600 mb-4">Languages Spoken</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>English</li>
+                            <li>Hindi</li>
+                            <li>Marwari</li>
+                            <li>Marathi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-gradient-to-br from-white to-gray-100 shadow-lg">
+            <div class="container mx-auto px-4 py-10">
+                <h2 class="text-3xl font-semibold text-blue-700 mb-8 text-center">Contact</h2>
+                <p class="text-gray-700 text-lg text-center mb-6">I'm always interested in new opportunities. Feel free
+                    to reach out!</p>
+                <div class="text-center space-y-3">
+                    <p class="text-gray-700 text-lg">
+                        <i class="fas fa-envelope mr-2 text-blue-500"></i>kshiteejgilda@gmail.com</p>
+                    <p class="text-gray-700 text-lg"><i class="fab fa-linkedin mr-2 text-blue-500"></i><a
+                            href="https://www.linkedin.com/in/kshiteej-gilda" target="_blank" rel="noopener noreferrer"
+                            class="text-blue-600 hover:underline">LinkedIn</a></p>
+                    <p class="text-gray-700 text-lg"><i class="fas fa-phone mr-2 text-blue-500"></i>+91-9049932066</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <div class="container mx-auto px-4">
+            <p>© 2024 Kshiteej Gilda. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburgerBtn = document.getElementById("hamburger-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeMenuBtn = document.getElementById("close-menu-btn");
+        const mobileMenuLinks = mobileMenu.querySelectorAll("a");
+        const navLinks = document.querySelectorAll('header nav a');
+        const sections = document.querySelectorAll('section');
+
+        function toggleMobileMenu() {
+            mobileMenu.classList.toggle("hidden");
+        }
+
+        hamburgerBtn.addEventListener("click", toggleMobileMenu);
+        closeMenuBtn.addEventListener("click", toggleMobileMenu);mobileMenuLinks.forEach(link => {
+            link.addEventListener("click", toggleMobileMenu);
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!mobileMenu.classList.contains('hidden') && !mobileMenu.contains(event.target) && event.target !== hamburgerBtn) {
+                toggleMobileMenu();
+            }
+        });
+
+        function updateActiveNavLink() {
+            let currentSectionId = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
+                    currentSectionId = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === currentSectionId) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveNavLink);
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
